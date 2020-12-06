@@ -41,6 +41,7 @@ export const ContextProvider = ({ children }) => {
                 payload: result.data
             })
         } catch (err) {
+            console.log(err)
             dispatch({type: 'ERROR'})
         }
     }

@@ -9,9 +9,11 @@ import Map from 'components/Map'
 const App = () => {
 	const { getUserIP } = useContext(GlobalContext)
 	
+	// eslint-disable-next-line
 	useEffect(() => {
 		getUserIP()
-	}, [getUserIP])
+		
+	}, [])
 
 	return (
 		<div className='App'>
