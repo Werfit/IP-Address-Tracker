@@ -12,7 +12,7 @@ const App = () => {
 	// eslint-disable-next-line
 	useEffect(() => {
 		getUserIP()
-		
+		// eslint-disable-next-line
 	}, [])
 
 	return (
