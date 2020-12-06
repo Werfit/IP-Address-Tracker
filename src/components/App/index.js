@@ -19,6 +19,15 @@ const App = () => {
 		<div className='App'>
 			<Header />
 			<Map />
+
+			<div className='author__div'>
+				<div>
+					Challenge by <a href='https://frontendmentor.io'>Frontend Mentor</a>
+				</div>
+				<div>
+					Coded by <a href='https://github.com/Werfit'>Werfit</a>
+				</div>
+			</div>
 		</div>
 	)
 }
